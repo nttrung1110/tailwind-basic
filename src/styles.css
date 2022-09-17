@@ -27,11 +27,21 @@
 }
 
 .card {
-    @apply bg-white rounded overflow-hidden shadow relative;
+    @apply 
+    bg-white 
+    rounded 
+    overflow-hidden 
+    shadow 
+    relative
+        hover:shadow-lg
 }
 
 .card-image {
-    @apply w-full h-32 sm:h-48 object-cover;
+    @apply 
+    w-full 
+    h-32 
+    sm:h-48 
+    object-cover;
 }
 
 .badge {
@@ -49,11 +59,20 @@
 }
 
 .btn {
-    @apply rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-widest hover:opacity-70
+    @apply 
+    rounded-full 
+    py-2 px-3
+    uppercase 
+    text-xs 
+    font-bold 
+    cursor-pointer 
+    tracking-widest 
+        hover:opacity-70
 }
 
 a {
-    @apply hover:opacity-70;
+    @apply 
+    hover:opacity-70;
 }
 
 .icon {
