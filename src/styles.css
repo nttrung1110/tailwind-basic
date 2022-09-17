@@ -55,3 +55,10 @@
 a {
     @apply hover:opacity-70;
 }
+
+.icon {
+    @apply
+    w-6 
+    h-6 
+    inline-block
+}
